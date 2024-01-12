@@ -61,6 +61,8 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:8080", "http://192.168.0.3:8080", "http://10.41.1.179:8080"
 ]
 
+CSRF_TRUSTED_ORIGINS = ["https://backend-ticket-07ccdc8f2fe4.herokuapp.com"]
+
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (
         'rest_framework.authentication.TokenAuthentication',
