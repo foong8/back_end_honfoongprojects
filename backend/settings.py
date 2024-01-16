@@ -50,8 +50,7 @@ INSTALLED_APPS = [
     'background_task',  # https://django4-background-tasks.readthedocs.io/en/latest/
     'taggit',           # https://django-taggit.readthedocs.io/en/latest/
     'taggit_serializer', # https://github.com/adriangzz/dj-taggit-serializer
-    # 'django_q',
-
+    
     # internal
     'operations',
     'posts',
