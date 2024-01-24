@@ -57,7 +57,7 @@ INSTALLED_APPS = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:8080", "http://192.168.0.3:8080", "http://10.41.1.179:8080", "https://frontend-ticket-e09988eb51df.herokuapp.com", "https://www.honfoongprojects.com/post-system-change-request-list", 'https://www.honfoongprojects.com',
+    "http://localhost:8080", "http://192.168.0.3:8080", "http://10.41.1.179:8080", "https://frontend-ticket-e09988eb51df.herokuapp.com", "https://www.honfoongprojects.com",
 ]
 
 CSRF_TRUSTED_ORIGINS = ["https://backend-ticket-07ccdc8f2fe4.herokuapp.com"]
